@@ -4,8 +4,6 @@ Este é um projeto desenvolvido como parte do teste técnico proposto pela empre
 
 O projeto utiliza os seguintes frameworks e tecnologias: Laravel, Vue, Tailwind e o banco de dados relacional MySQL.
 
-![home](/images/home-page.png)
-
 ## Requisitos
 
 **Configuração de Ambiente e Boilerplate:**
