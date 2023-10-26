@@ -82,4 +82,12 @@ class UserController extends Controller
 
         $user->delete();
     }
+
+    public function fallback(User $user)
+    {
+        return Inertia::render('Error', [
+            'user' => $user,
+            'status' => 404,
+        ]);
+    }
 }
